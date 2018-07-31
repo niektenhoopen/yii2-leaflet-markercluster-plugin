@@ -33,6 +33,6 @@ class MarkerClusterAsset extends AssetBundle
     public function init()
     {
         $this->sourcePath = __DIR__ . '/assets';
-        $this->js = YII_DEBUG ? ['js/leaflet.markercluster-src.js'] : ['js/leaflet.markercluster.js'];
+        $this->js = ['https://unpkg.com/leaflet.markercluster@1.0.0/dist/leaflet.markercluster.js'];
     }
 }
